@@ -316,3 +316,43 @@ span {
 }
 
 /* ----------------------  /about  ---------------------------------------- */
+/* ----------------------  facts  ---------------------------------------- */
+
+.w25 {
+  width: 25%;
+}
+.box4 {
+  box-sizing: border-box;
+  height: 157px;
+  padding: 30px;
+}
+#factsbox {
+  height: 100px;
+}
+#factbox i {
+  height: 44px;
+  width: 44px;
+  height: auto;
+  color: #149ddd;
+  font-size: 44px;
+  margin-right: 20px;
+}
+.facts .box4 span {
+  line-height: 50px;
+  font-size: 50px;
+  font-weight: 700;
+}
+.facts .box4 p {
+  padding: 12px 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-size: thin;
+  margin: 0;
+  line-height: 20px;
+  color: #556a86;
+}
+strong {
+  color: #122f57;
+  font-weight: bolder;
+}
+
+/* ----------------------  /facts  ---------------------------------------- */

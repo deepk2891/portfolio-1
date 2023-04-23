@@ -457,3 +457,56 @@ strong {
 }
 
 /* ----------------------  /portfolio  ---------------------------------------- */
+/* ----------------------  services  ---------------------------------------- */
+.servicebox {
+  height: 130px;
+  width: 33.33%;
+  margin-bottom: 20px;
+  padding: 0 12px;
+}
+.services .servicebox:hover {
+}
+.services .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #149ddd;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.services .icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+  cursor: pointer;
+}
+/* .services .icon i:hover {
+  background-color: #149ddd;
+  color: #ffffff;
+  border: 1px solid #149ddd;
+} */
+.services .title a {
+  color: #343a40;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-decoration-style: solid;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+.services .desc {
+  padding: 0;
+}
+.services .desc p {
+  margin-top: 15px;
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  width: auto;
+  text-align: start;
+}
+/* ----------------------  /services  ---------------------------------------- */

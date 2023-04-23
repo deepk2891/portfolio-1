@@ -10,8 +10,8 @@
 .container {
   align-items: center;
   margin: auto;
-  width: 1320px;
-  width: calc(1320px-311px);
+  width: 100%;
+  width: calc(1320px-300px);
 }
 body {
   font-family: "Ubuntu", sans-serif;
@@ -62,10 +62,8 @@ h6 {
 }
 
 /* ----------------------  home  ---------------------------------------- */
-main {
+.home {
   margin-left: 300px;
-  /* background-color: black; */
-  transition: 0.3s;
 }
 #home {
   height: 100vh;
@@ -77,7 +75,7 @@ main {
   flex-direction: column;
   justify-content: center;
 }
-#home::before {
+/* #home::before {
   content: "";
   width: 100%;
   height: 100vh;
@@ -86,7 +84,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-}
+} */
 #home .home-row {
   z-index: 1;
   margin-top: -100px;
@@ -461,8 +459,102 @@ strong {
   white-space: nowrap;
 }
 /* ----------------------  /Skills  ---------------------------------------- */
+
 /* ----------------------  /resume  ---------------------------------------- */
 
+.resume .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 773px;
+}
+.r1 {
+  width: 50%;
+}
+.r2 {
+  width: 50%;
+}
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+  padding-bottom: 0;
+}
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.resume p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+  text-align: start;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.resume p em {
+  line-height: 24px;
+  text-align: start;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+.resume .resume-item ul {
+  list-style: disc 100px;
+
+  padding-left: 20px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.resume .container .resume-item ul li {
+  list-style-type: disc;
+  margin: 8px 0;
+  padding-bottom: 10px;
+  display: list-item;
+}
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
 /* ----------------------  /resume  ---------------------------------------- */
 
 /* ----------------------  portfolio  ---------------------------------------- */

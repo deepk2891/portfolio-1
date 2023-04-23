@@ -406,6 +406,54 @@ strong {
   white-space: nowrap;
 }
 /* ----------------------  /skills  ---------------------------------------- */
+
 /* ----------------------  /resume  ---------------------------------------- */
 
 /* ----------------------  /resume  ---------------------------------------- */
+
+/* ----------------------  portfolio  ---------------------------------------- */
+.portfolio {
+  background-color: #f5f8fd;
+}
+.filters {
+  margin: 16px 0px;
+}
+.portfolio .filters ul {
+  height: 41px;
+  width: 281px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffffff;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+.portfolio .filters ul li {
+  width: 25%;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  padding: 10px 15px 8px 15px;
+  cursor: pointer;
+}
+.portfolio .filters ul li:hover {
+  color: #149ddd;
+  /* transition-duration: 0.3s; */
+  transition-delay: 0s;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio .container .row {
+  margin-top: 25px;
+}
+.portfolio .row img {
+  margin: 10px;
+  height: 286px;
+  width: 382px;
+}
+.portfolio .row img:hover {
+  opacity: 0.5;
+  transition-duration: 0.5s;
+}
+
+/* ----------------------  /portfolio  ---------------------------------------- */
